@@ -4,6 +4,7 @@ import Work3 from '../../assets/php.png';
 import Work4 from '../../assets/netflix.png';
 import Work5 from '../../assets/js.png';
 import Work6 from '../../assets/cs.png';
+import sm1 from '../../assets/sm.png';
 
 export const projectsData = [
     {
@@ -40,6 +41,14 @@ export const projectsData = [
     },
     {
       id: 5,
+      image: sm1,
+      title: "Social Media App",
+      category: "Mern",
+      code:"https://github.com/adarsh162/Social-media-backend",
+      demo:"https://social-media-jgiw.onrender.com"
+    },
+    {
+      id: 6,
       image: Work5,
       title: "Indian-Assaisination Game",
       category: "JS",
@@ -47,7 +56,7 @@ export const projectsData = [
       demo:"https://adarsh162.github.io/Indian-Assaisination/Home"
     },
     {
-      id: 6,
+      id: 7,
       image: Work6,
       title: "Expense Management",
       category: "ASP.Net",
